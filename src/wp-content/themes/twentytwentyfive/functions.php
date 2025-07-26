@@ -173,3 +173,23 @@ function get_letest_article() {
 	$the_query = new WP_Query( $args );
 	return $the_query;
 }
+
+function ie_get_custom_post() {
+	/**
++	 * Retrieves the custom post.
++	 *
++	 * @since Twenty Twenty-Five 1.0
++	 *
++	 * @return WP_Query|false Query object on success, false on failure.
++	 */
+
+	$args = array(
+		'post_type' => 'post',
+		'post_per_page' => '2000',
+		'post__not_in' => array('2', '5', '100')
+	);
+	if($the_query->have_posts()) {
++		return $the_query;
++	}
+	return false;
+}
