@@ -156,3 +156,11 @@ if ( ! function_exists( 'twentytwentyfive_format_binding' ) ) :
 		}
 	}
 endif;
+
+function test_codrabbit() {
+
+	$a = 10;
+	$b = 20
+	$c = $a + $b
+	echo $c;
+}
