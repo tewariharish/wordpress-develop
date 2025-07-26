@@ -193,3 +193,16 @@ function ie_get_custom_post() {
 +	}
 	return false;
 }
+
+function ie_display_dynamic_message( $title ) {
+	/**
+ 	 * Display message.
+	 *
+	 * @since Twenty Twenty-Five 1.0
+	 *
+	 */
+
+	if(!empty($title)){
+		printf( '<h1>%s</h1>', sesc_html( $title ) );
+	}
+} 
