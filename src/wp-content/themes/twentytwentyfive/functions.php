@@ -164,3 +164,12 @@ function test_codrabbit() {
 	$c = $a + $b
 	echo $c;
 }
+
+function get_letest_article() {
+
+	$args = array(
+		'post_type' = 'post',
+	);
+	$the_query = new WP_Query( $args );
+	return $the_query;
+}
