@@ -181,4 +181,3 @@ To generate a new password (recommended):
 3. Click the Edit link below the admin user
 4. Scroll down and click 'Generate password'. Either use this password (recommended) or change it, then click 'Update User'. If you use the generated password be sure to save it somewhere (password manager, etc).
 
-![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/tewariharish/wordpress-develop?utm_source=oss&utm_medium=github&utm_campaign=tewariharish%2Fwordpress-develop&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)
